@@ -1,0 +1,11 @@
+{
+  "name": "simple-grpc-kafka",
+  "version": "1.0.0",
+  "author": "palaska",
+  "license": "ISC",
+  "dependencies": {
+    "avsc": "^5.1.1",
+    "grpc": "^1.7.3",
+    "kafka-node": "^2.3.0"
+  }
+}

@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+// The coordinate service definition.
+service CoordinateHandler {
+  // Sends a coordinate (lat/lng), returns nothing
+  rpc ProcessCoordinate (CoordinateRequest) returns (Empty) {}
+}
+
+// The request message containing the lat/lng
+message CoordinateRequest {
+  string lat = 1;
+  string lng = 2;
+}
+
+message Empty {}
